@@ -1,10 +1,7 @@
 [{
     "id": "{{ data['id'] }}",
     "instanceId": "{{ data['instanceId'] }}",
-    "authEntityId": "{{ data['authEntityId'] }}",
     "displayName": "{{ data['displayName'] }}",
-    "authEntityClass": "{{ data['authEntityClass'] }}",
-    "deployPending": "{{ data['deployPending'] }}",
     "instanceVersion": "{{ data['instanceVersion'] }}",
     "createTime": "{{ data['createTime'] }}",
     "deployed": "{{ data['deployed'] }}",
@@ -24,3 +21,7 @@
                        {{ d }}
                        {%  endfor %} ]
 }]
+
+ ##   "authEntityId": "{{ data['authEntityId'] }}",
+ ##   "authEntityClass": "{{ data['authEntityClass'] }}",
+ ##   "deployPending": "{{ data['deployPending'] }}",
